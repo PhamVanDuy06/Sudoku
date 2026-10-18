@@ -1,0 +1,16 @@
+Cỡ,Phương pháp,Giải được,Timeout,Lỗi,Med solve (ms),Std solve,Med build (ms),Med total (ms)
+9x9,SAT cadical+seqcounter,10/10,0,0,0.1,0.1,29.0,29.0
+9x9,CP-SAT (Google),10/10,0,0,3.0,4.2,1.5,4.6
+9x9,CPLEX CP,10/10,0,0,31.0,6.3,1.6,33.1
+9x9,Gurobi (MIP),10/10,0,0,6.9,1.1,13.8,20.6
+9x9,CPLEX MIP,10/10,0,0,0.0,6.3,32.1,34.2
+16x16,SAT cadical+seqcounter,10/10,0,0,16.9,19.8,166.9,199.2
+16x16,CP-SAT (Google),10/10,0,0,68.7,27.5,3.6,73.3
+16x16,CPLEX CP,9/10,1,0,1581.1,2415.5,3.1,1583.8
+16x16,Gurobi (MIP),10/10,0,0,41.3,286.4,56.6,99.0
+16x16,CPLEX MIP,N/A (license),-,-,-,-,-,-
+25x25,SAT cadical+seqcounter,10/10,0,0,2068.8,689.0,646.6,2719.6
+25x25,CP-SAT (Google),10/10,0,0,810.9,490.3,7.2,817.8
+25x25,CPLEX CP,0/10,10,0,-,-,-,-
+25x25,Gurobi (MIP),7/10,3,0,21555.0,11392.6,193.0,21775.3
+25x25,CPLEX MIP,N/A (license),-,-,-,-,-,-
